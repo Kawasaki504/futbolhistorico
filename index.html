@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Historia Viva del Fútbol</title>
+    <style>
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #030303;
+    }
+    
+    header {
+        background-color: #29b5d5;
+        color: rgb(19, 19, 19);
+        padding: 1em 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 20px;
+    }
+    
+    .logo h1 {
+        margin: 0;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    nav ul li {
+        margin-left: 1em;
+    }
+    
+    nav a {
+        color: rgb(255, 255, 255);
+        text-decoration: color-mix(in srgb, color percentage, color percentage);
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    .hero {
+        background-color: #abe993;
+        padding: 50px 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .hero-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .hero h1 {
+        margin-bottom: 20px;
+    }
+    
+    .button {
+        display: inline-block;
+        background-color: #007bff;
+        color: rgb(19, 19, 19);
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+    
+    .content-section {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(24, 6, 114, 0);
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-top: 15px;
+    }
+    
+    .card {
+        background-color:#abe993;
+        padding: 50px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: #323232;
+        color: white;
+        padding: 1em 20px;
+        text-align: center;
+    }
+    
+    footer nav ul {
+        justify-content: center;
+    }
+    
+    footer nav ul li {
+        margin: 0 1em;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Fútbol Histórico</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="biografia.html">BIOGRAFIA </a></li>
+                <li><a href="reglas del futbol.html">REGLAS DEL FUTBOL</a></li>
+                <li><a href="Mejores equipos.html"> MEJORES EQUIPOS</a></li>
+                <li><a href="Mejores Selecciones.html">MEJORES SELECCIONES</a></li>
+                <li><a href="Mejores jugadores.html">MEJORES JUGADORES </a></li>
+                <img src="img/logo tecnico honduras.png" alt="100px"width="100px">
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Desentrañando la Gloriosa Historia del Fútbol Internacional</h1>
+                <p>Un viaje a través de los momentos, las leyendas y las reglas que dieron forma al deporte rey.</p>
+                <div class="grid">
+                    <div class="card"><img src="img/EWNI.gif" alt="200px" width="200px"></div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="BIOGRAFIA" class="content-section">
+            <h2>BIOGRAFIA</h2>
+            <div class="grid">
+                <div class="card"><img src="img/biografia.jpg" alt="300px" width="300px"></div>
+                </div>
+            <a href="biografia.html">Ver todas las Biografías</a>
+        </section>
+
+        <section id="REGLAS DEL FUTBOL" class="content-section">
+            <h2>REGLAS DEL FUTBOL </h2>
+            <div class="grid">
+                <div class="card"><img src="img/reglas.webp" alt="300px" width="300px"></div>
+                </div>
+            <p>Breve introducción a las reglas básicas...</p>
+            <a href="reglas del futbol.html">Leer sobre las Reglas</a>
+        </section>
+    </main>
+
+        <section id="EQUIPOS" class="content-section">
+            <h2>MEJORES EQUIPOS</h2>
+            <div class="grid">
+                <div class="card"><img src="img/real madrid.webp" alt="300px" width="300px"></div>
+                <div class="card"><img src="img/olimpia.png" alt="200px" width="200px"></div>
+                </div>
+            <p>Breve mención de equipos legendarios...</p>
+            <a href="Mejores equipos.html">Ver los Mejores Equipos</a>
+        </section>
+
+        <section id="SELECCIONES" class="content-section">
+            <h2>MEJORES SELECCIONES</h2>
+            <div class="grid">
+                <div class="card"><img src="img/brasil.webp " alt="200px" width="200px"></div>
+                <div class="card"><img src="img/españa.png" alt="200px" width="200px"></div>
+                </div>
+            <p>Breve mención de selecciones destacadas...</p>
+            <a href="Mejores Selecciones.html">Ver las Mejores Selecciones</a>
+        </section>
+
+
+        <section id="JUGADORES" class="content-section">
+            <h2>MEJORES JUGADORES</h2>
+            <div class="grid">
+                <div class="card"><img src="img/cristiano.webp" alt="300px" width="300px"></div>
+                <div class="card"><img src="img/messi.jpg" alt="300px" width="300px"></div>
+                </div>
+            <p>Breve mención de jugadores icónicos...</p>
+            <a href="Mejores jugadores.html">Ver los Mejores Jugadores</a>
+        </section>
+
+        
+    <footer>
+        <p>&copy; 2025 LA HISTORIA VIVA DEL FUTBOL JAFETH MURILLO</p>
+        <nav>
+            <ul>
+                <li><a href="">oscar.murillo@tecnico-honduras.com</a></li>
+                <li><a href="">III BTP INFORMATICA S."11"</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
